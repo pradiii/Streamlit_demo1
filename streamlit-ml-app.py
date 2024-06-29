@@ -53,6 +53,7 @@ def prediction(Gender,Married,Dependents,Education,Self_Employed,
     else:
         pred = "Approved"
 
+    print("Streamlit model")
     return pred
 
 
